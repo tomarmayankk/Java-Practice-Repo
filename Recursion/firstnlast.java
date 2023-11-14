@@ -1,4 +1,4 @@
-package Recursion;
+
 //java program to find the first and last occurence of a character in a string
 public class firstnlast {
     public static void Firstnlast(String str, char ch){

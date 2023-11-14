@@ -1,4 +1,4 @@
-package Recursion;
+
 //java program to print the factorial of n
 
 

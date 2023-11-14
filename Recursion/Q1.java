@@ -1,4 +1,3 @@
-package Recursion;
 //program to print the sum of n natural numbers
 
 public class Q1 {

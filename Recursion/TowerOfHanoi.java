@@ -1,4 +1,4 @@
-package Recursion;
+
 public class TowerOfHanoi {
     public static void towerOfHanoi(int n, char source, char helper, char destination){
         if(n==1){

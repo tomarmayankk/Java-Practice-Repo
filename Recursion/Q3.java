@@ -1,4 +1,4 @@
-package Recursion;
+
 
 public class Q3 {
 public static int printPower(int x, int n) {

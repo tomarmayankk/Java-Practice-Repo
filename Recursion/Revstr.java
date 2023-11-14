@@ -1,4 +1,4 @@
-package Recursion;
+
 //java program to reverse a string
 public class Revstr {
     public static void revstr(String str){

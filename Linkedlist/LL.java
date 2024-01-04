@@ -1,6 +1,12 @@
 package Linkedlist;
 //implementation of linkedlist from Scratch and some operations on it
 public class LL {
+    //create a function to get the size of the linked list
+
+    private int size;
+    LL(){
+        this.size = 0;
+    }
     
     // Node class
     class Node {
@@ -10,6 +16,7 @@ public class LL {
         Node(String data) {
             this.data = data;
             this.next = null;
+            size++;
         }
     }
     
@@ -56,6 +63,7 @@ public class LL {
             System.out.println("the list is empty");
             return;
         }
+        size--;
         if(head.next == null) {
             head = null;
             return;
@@ -85,6 +93,11 @@ public class LL {
         }
         System.out.println("null");
     }
+    //get the size of the linked list
+    public int getsize(){
+        return size;
+
+    }
 
     public static void main(String[] args) {
         LL list = new LL();
@@ -111,5 +124,7 @@ public class LL {
 
         list.deletelast("E");
         list.printlist();
+
+        System.out.println(list.getsize());
     }
 }

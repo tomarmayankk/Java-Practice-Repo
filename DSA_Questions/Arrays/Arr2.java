@@ -1,5 +1,5 @@
 package DSA_Questions.Arrays;
-
+//java program to calculate the maximum sub array
 public class Arr2 {
     public static int maximum_subarray(int[] nums){
         int maxending = nums[0];

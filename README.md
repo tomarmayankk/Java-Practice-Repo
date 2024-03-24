@@ -6,7 +6,7 @@ This repository contains implementations of various data structures and algorith
 
 This repository serves as a collection of commonly used data structures and algorithms implemented in Java. Understanding data structures and algorithms is essential for any software developer, as they form the backbone of efficient and scalable software solutions.
 
-## Contents
+## Content
 
 ### Data Structures
 
@@ -25,3 +25,4 @@ This repository serves as a collection of commonly used data structures and algo
 2. **Searching Algorithms**: Linear search, binary search, etc.
 3. **Dynamic Programming**: Problems and solutions using dynamic programming approach.
 4. **Graph Algorithms**: Minimum spanning tree, topological sort, etc.
+
